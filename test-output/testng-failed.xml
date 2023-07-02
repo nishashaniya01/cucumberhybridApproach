@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Buy Product]" guice-stage="DEVELOPMENT" verbose="5">
+  <test thread-count="5" name="Product Purchase(failed)" verbose="5">
+    <classes>
+      <class name="com.qa.runner.TestRunner">
+        <methods>
+          <include name="runScenario" invocation-numbers="0 3"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.qa.runner.TestRunner -->
+    </classes>
+  </test> <!-- Product Purchase(failed) -->
+</suite> <!-- Failed suite [Buy Product] -->
